@@ -11,10 +11,8 @@ body {
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 25px;
-  width: 420px;
-}
-.preview {
-  display: inline-block;
+  width: 400px;
+
 }
 div {
  background-color: #dadada;
@@ -49,12 +47,17 @@ div {
 @media screen and (min-width: 575px){
   div {
    margin: 1%;
-   width: 48%;
+   width:46%;
+   height:160px;
  }
 }
 @media screen and (min-width: 991px){
   div {
    margin: 1%;
    width: 22%;
+   height:100px;
  }
+}
+.preview {
+  display: inline-block;
 }
