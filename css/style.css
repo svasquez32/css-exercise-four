@@ -6,13 +6,18 @@ body {
   font-size: 14px;
   text-align: center;
 }
+div {
+ height: 287px;
+ width: 100%;
+ margin-top: 2%;
+ padding-left: 5%;
+ padding-top: 5%;
+}
 .container {
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 25px;
-  width: 400px;
-
 }
 div {
  background-color: #dadada;
@@ -48,14 +53,13 @@ div {
   div {
    margin: 1%;
    width:46%;
-   height:160px;
+   height:300px;
  }
 }
 @media screen and (min-width: 991px){
   div {
    margin: 1%;
    width: 22%;
-   height:100px;
  }
 }
 .preview {
